@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.try{
+	background-color: white;
+	padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+	text-align:center;
+color:white;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+.column ol li{
+	list-style: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

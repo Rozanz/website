@@ -1,0 +1,30 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.try{
+	background-color: white;
+	padding: 20px;
+}
+.container-fluid ul li a {
+	text-decoration: none;
+}
+
+.container-fluid ul{
+list-style-type: none;}
+
+.btn a{
+	text-decoration: none;
+	color:white;
+}
+
+.content{
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	color: white;
+}

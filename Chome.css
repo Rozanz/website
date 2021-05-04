@@ -1,0 +1,90 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.try{
+	background-color: white;
+	padding: 20px;
+}
+.container-fluid ul li a {
+	text-decoration: none;
+}
+
+.container-fluid ul{
+list-style-type: none;}
+
+.btn a{
+	text-decoration: none;
+	color:white;
+}
+
+.yuo p {
+	text-align:center;
+	color: white;
+	padding-bottom: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+.yuo h3{
+	padding: 1em 0;
+}
+
+.abc h3{
+	padding: 1em 0;
+}
+
+.abc p {
+	font-size: 18px;
+	text-align:center;
+	color: white;
+	padding-bottom: 1em;
+	padding-right: 6em;
+	padding-left: 6em;
+}
+	
+.abc h6{
+	color: white;
+	text-align: center;
+}
+	
+
+.abc h5{
+	color: white;
+	text-align: center;
+}
+.apple p{
+	font-size: 20px;
+}
+figure h5{
+	padding-bottom: 3em;
+}
+
+figure h3{
+	padding-top: 3em;
+}
+
+.myboy{
+	
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.myboy > .card{
+	margin: 10px;
+}
+
+.rato{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* @media (max-width: 960px){ */
+	/* .myboy{ */
+		/* justify-content: center; */
+		/* flex-direction: column; */
+	/* } */
